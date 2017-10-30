@@ -1,0 +1,1050 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1
+}
+
+:focus {
+    outline: none
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block
+}
+
+nav ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+input, select {
+    vertical-align: middle
+}
+
+html {
+    background: white;
+    color: black
+}
+
+body, button, input, select, textarea {
+    font: 14px '微软雅黑', arial, sans-serif
+}
+
+input, select, textarea {
+    font-size: 100%
+}
+
+th {
+    text-align: inherit
+}
+
+iframe {
+    display: block
+}
+
+abbr, acronym {
+    border: none;
+    font-variant: normal
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 500
+}
+
+ol, ul {
+    list-style: none
+}
+
+caption, th {
+    text-align: left
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+ins, a {
+    text-decoration: none
+}
+
+a:focus, *:focus {
+    outline: none
+}
+
+.act {
+    color: red !important;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    overflow: hidden
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden
+}
+
+.hide {
+    display: none
+}
+
+.block {
+    display: block
+}
+
+.fl, .fr {
+    display: inline
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.text_l {
+    text-align: left;
+}
+
+.text_c {
+    text-align: center;
+}
+
+.text_r {
+    text-align: right;
+}
+
+.marin_l0 {
+    margin-left: 0;
+}
+
+.marin_r0 {
+    margin-right: 0;
+}
+
+.margin0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.margin_t_10 {
+    margin-top: 10px
+}
+
+.margin_t_30 {
+    margin-top: 30px
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.pa {
+    position: absolute;
+}
+
+/*绝对定位*/
+.pr {
+    position: relative;
+}
+
+/*相对定位*/
+.flex {
+    display: flex;
+}
+
+/*弹性盒子*/
+.space_a {
+    justify-content: space-around;
+}
+
+/*配合flex 均匀分布并距边框有距离*/
+.space_b {
+    justify-content: space-between;
+}
+
+/*配合flex 均匀分布并距边框无距离*/
+html {
+    font-size: 10px;
+    font-family: "微软雅黑"
+}
+
+/*主体*/
+.module {
+    width: 1170px;
+    margin: 0 auto;
+    zoom: 1
+}
+
+/*模态窗*/
+.modal-body {
+    text-align: center
+}
+
+/*左侧列表*/
+.choose, .choose span {
+    color: red
+}
+
+@media screen and (min-width: 1200px) {
+    /*轮播*/
+    #myCarousel {
+        width: 100%;
+        height: 425px;
+        overflow: hidden
+    }
+
+    #myCarouse2 .item img {
+        width: 100%;
+        height: 272px;
+    }
+
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+        width: 100%;
+        height: 425px
+    }
+
+    .carousel-indicators > li {
+        background: #676767;
+        border: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px
+    }
+
+    .carousel-indicators .active {
+        background: red;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px
+    }
+
+    /*头部*/
+    header {
+        max-width: 1920px;
+        margin: 0 auto;
+        left: 50%
+    }
+
+    header {
+        width: 100%;
+        height: 90px;
+        background: rgba(0, 0, 30, 0.4) none repeat scroll 0 0 !important;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: 30
+    }
+
+    .header {
+        width: 1170px;
+        margin: 0 auto;
+        color: #eeeeee;
+        position: relative
+    }
+
+    .header .fr {
+        font-size: 0
+    }
+
+    .header .logo {
+        padding: 0 12px;
+        height: 90px;
+        line-height: 90px;
+        background: red
+    }
+
+    .header p {
+        margin-top: 14px;
+        text-align: right;
+        padding-right: 33px;
+        font-size: 1.3rem;
+        color: #FFF;
+        line-height: 20px
+    }
+
+    .header p a {
+        color: #FFF
+    }
+
+    .logo a {
+        font-size: 3rem;
+        height: 90px;
+        line-height: 90px;
+        padding: 0 10px;
+        color: #fff;
+        text-decoration: none
+    }
+
+    .logo a img {
+        color: #fff;
+        width: 49px;
+        height: 49px;
+        display: inline-block;
+        float: left;
+        margin-top: 20px
+    }
+
+    nav {
+        margin-top: 16px;
+        position: relative;
+        height: 40px
+    }
+
+    nav a {
+        display: inline-block;
+        color: #eeeeee;
+        font-size: 1.6rem;
+        margin-right: 20px;
+        position: relative;
+        font-weight: bold;
+        font-family: "微软雅黑"
+    }
+
+    nav a:hover, nav a:focus {
+        color: red;
+        text-decoration: none
+    }
+
+    .m_time, .m_login, .m_nav_btn, .m_module, .m_nav {
+        display: none;
+    }
+
+    /*底部*/
+    footer {
+        max-width: 1920px;
+        margin: 30px auto 0 auto
+    }
+
+    footer {
+        width: 100%;
+        background-color: #f2f2f2;
+        margin-top: 30px;
+        padding: 20px 0;
+        color: #333333
+    }
+
+    footer a {
+        color: #333333
+    }
+
+    .foot {
+        width: 1170px;
+        margin: 0 auto;
+        border-top: 1px solid #FFF;
+        padding-top: 30px
+    }
+
+    .foot p {
+        line-height: 28px
+    }
+
+    .foot p span {
+        padding: 0 8px
+    }
+
+    .footer_logo {
+        width: 300px;
+        margin-right: 20px
+    }
+
+    .footer_logo img {
+        margin-top: 30px
+    }
+
+    .footer_ewm {
+        width: 120px
+    }
+
+    .footer_ewm h6 {
+        line-height: 30px;
+        text-indent: 15px
+    }
+
+    .footer_select li {
+        width: 165px;
+        height: 32px;
+        line-height: 32px;
+        background-image: url(../img/input.png);
+        text-indent: 12px;
+        margin-left: 25px
+    }
+
+    .footer_select ul li:first-child {
+        margin-left: 0
+    }
+
+    .footer_select {
+        font-size: 1.4rem;
+        color: #333333
+    }
+
+    .fastlink {
+        width: 1170px;
+        height: 50px;
+        margin: 0 auto;
+        line-height: 50px;
+        position: relative;
+        margin-bottom: 10px
+    }
+
+    .fastlink h4 {
+        color: #333333;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 50px
+    }
+
+    .fastlink_ul {
+        position: absolute;
+        left: 280px;
+        top: 0;
+        overflow: hidden;
+        height: 50px;
+        width: 800px
+    }
+
+    .fastlink li {
+        width: 200px;
+        color: #666666;
+        font-size: 1.8rem;
+        background-repeat: no-repeat;
+        background-position: 0 12px;
+        text-indent: 40px
+    }
+
+    .fl_left {
+        display: inline-block;
+        width: 19px;
+        height: 32px;
+        background-image: url(../img/left.png);
+        position: absolute;
+        left: 160px;
+        top: 10px;
+        cursor: pointer
+    }
+
+    .fl_right {
+        display: inline-block;
+        width: 19px;
+        height: 32px;
+        background-image: url(../img/right.png);
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        cursor: pointer
+    }
+
+    .m_footer, .m_copyright {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1199px) {
+    /*轮播*/
+    #myCarousel {
+        width: 100%;
+        height: 345px;
+        overflow: hidden
+    }
+
+    #myCarouse2 .item img {
+        width: 100%;
+        height: 272px;
+    }
+
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+        width: 100%;
+        height: 345px
+    }
+
+    .carousel-indicators > li {
+        background: #676767;
+        border: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px
+    }
+
+    .carousel-indicators .active {
+        background: red;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px
+    }
+
+    /*导航*/
+    header {
+        width: 100%;
+        min-width: 320px;
+        height: 60px;
+        background: rgba(0, 0, 30, 0.4) none repeat scroll 0 0 !important;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        z-index: 30
+    }
+
+    .header {
+        width: 90%;
+        margin: 0 5%;
+        color: #eeeeee;
+        position: relative
+    }
+
+    .header .logo {
+        padding: 0 12px;
+        height: 60px;
+        line-height: 60px;
+        background: red
+    }
+
+    .logo a {
+        font-size: 2rem;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 10px;
+        color: #fff;
+        text-decoration: none
+    }
+
+    .logo a img {
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        float: left;
+        margin-top: 12px
+    }
+
+    nav {
+        margin-top: 16px;
+        position: relative;
+        height: 40px
+    }
+
+    nav a {
+        display: inline-block;
+        color: #eeeeee;
+        font-size: 1.6rem;
+        margin-right: 20px;
+        position: relative;
+        font-weight: bold;
+        font-family: "微软雅黑"
+    }
+
+    nav a:hover, nav a:focus {
+        color: red;
+        text-decoration: none
+    }
+
+    .m_time {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 0;
+        line-height: 30px;
+        color: #000;
+    }
+
+    .p_login, .p_nav, .module, .p_footer {
+        display: none;
+    }
+
+    .m_login {
+        position: absolute;
+        height: 60px;
+        line-height: 63px;
+        right: 5%;
+        display: none;
+    }
+
+    .m_login a {
+        color: #fff;
+    }
+
+    .m_nav_btn {
+        display: inline-block;
+        font-size: 2rem;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+    .m_nav {
+        width: 100%;
+        height: 60px;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+
+    .m_nav_link1 {
+        margin-top: 2px;
+    }
+
+    .m_nav_link1, .m_nav_link2 {
+        width: 90%;
+        margin: 0 auto;
+        height: 25px;
+        margin-right: 5%;
+        text-align: right;
+    }
+
+    .m_nav_link1 a, .m_nav_link2 a {
+        display: inline-block;
+        width: 12%;
+        height: 25px;
+        color: #fff;
+        font-size: 1.4rem;
+        text-decoration: none;
+        line-height: 30px;
+        margin-top: 2px;
+    }
+
+    .m_nav_link1 a:hover, .m_nav_link2 a:hover {
+        color: red;
+    }
+
+    /*底部*/
+    .m_footer {
+        width: 100%;
+        background: #383A39;
+        color: #fff;
+        position: relative;
+    }
+
+    .m_left {
+        width: 50%;
+        float: left;
+        background: #383A39;
+        padding-left: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .m_right {
+        width: 50%;
+        float: right;
+        background: #383A39;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .m_tel {
+        width: 55%;
+        margin-left: 5%;
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .m_footer h5 {
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+        border-bottom: solid 1px #666;
+        font-size: 1.8rem;
+    }
+
+    .m_footer ul li {
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.4rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .m_left a, .m_right a, .m_tel li a {
+        color: #cacaca;
+        text-decoration: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .m_bottom_logo {
+        width: 20%;
+        right: 5%;
+        position: absolute;
+        bottom: 18px;
+    }
+
+    .m_copyright {
+        background: #262626;
+        padding: 15px 5%;
+    }
+
+    .m_copyright p {
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        color: #cacaca;
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    body {
+        min-width: 320px;
+    }
+
+    /*轮播*/
+    #myCarousel {
+        width: 100%;
+        height: 245px;
+        overflow: hidden
+    }
+
+    #myCarouse2 .item img {
+        width: 100%;
+        height: 272px;
+    }
+
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+        width: 100%;
+        height: 245px
+    }
+
+    .carousel-indicators > li {
+        background: #676767;
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+
+    .carousel-indicators .active {
+        background: red;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px
+    }
+
+    /*导航*/
+    header {
+        width: 100%;
+        min-width: 320px;
+        height: 60px;
+        background: rgba(0, 0, 30, 0.4) none repeat scroll 0 0 !important;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        z-index: 30
+    }
+
+    .header {
+        width: 90%;
+        margin: 0 5%;
+        color: #eeeeee;
+        position: relative
+    }
+
+    .header .logo {
+        padding: 0 5px;
+        height: 60px;
+        line-height: 60px;
+        background: red
+    }
+
+    .logo a {
+        font-size: 2rem;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 10px;
+        color: #fff;
+        text-decoration: none
+    }
+
+    .logo a img {
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        float: left;
+        margin-top: 15px
+    }
+
+    nav {
+        margin-top: 16px;
+        position: relative;
+        height: 40px
+    }
+
+    nav a {
+        display: inline-block;
+        color: #eeeeee;
+        font-size: 1.6rem;
+        margin-right: 20px;
+        position: relative;
+        font-weight: bold;
+        font-family: "微软雅黑"
+    }
+
+    nav a:hover, nav a:focus {
+        color: red;
+        text-decoration: none
+    }
+
+    .m_time {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 0;
+        line-height: 30px;
+        color: #000;
+    }
+
+    .p_login, .p_nav, .p_footer {
+        display: none;
+    }
+
+    .m_login {
+        position: absolute;
+        height: 60px;
+        line-height: 63px;
+        right: 9%;
+        display: none;
+    }
+
+    .m_login a {
+        color: #fff;
+    }
+
+    .m_nav_btn {
+        display: inline-block;
+        font-size: 2rem;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+    .m_nav {
+        width: 100%;
+        min-width: 320px;
+        height: 60px;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+
+    .m_nav_link1 {
+        margin-top: 2px;
+    }
+
+    .m_nav_link1, .m_nav_link2 {
+        height: 25px;
+        margin-right: 5%;
+        text-align: right;
+    }
+
+    .m_nav_link1 a, .m_nav_link2 a {
+        display: inline-block;
+        height: 25px;
+        color: #fff;
+        font-size: 1.4rem;
+        text-decoration: none;
+        line-height: 30px;
+        margin-top: 2px;
+        padding: 0 2px;
+    }
+
+    .m_nav_link1 a:hover, .m_nav_link2 a:hover {
+        color: red;
+    }
+
+    /*底部*/
+    .m_footer {
+        width: 100%;
+        background: #383A39;
+        color: #fff;
+        position: relative;
+    }
+
+    .m_left {
+        width: 50%;
+        float: left;
+        background: #383A39;
+        padding-left: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .m_right {
+        width: 50%;
+        float: right;
+        background: #383A39;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .m_tel {
+        width: 55%;
+        margin-left: 5%;
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .m_footer h5 {
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+        border-bottom: solid 1px #666;
+        font-size: 1.4rem;
+    }
+
+    .m_footer ul li {
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .m_left a, .m_right a, .m_tel li a {
+        color: #cacaca;
+        text-decoration: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .m_bottom_logo {
+        width: 20%;
+        right: 5%;
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .m_copyright {
+        background: #262626;
+        padding: 15px 5%;
+    }
+
+    .m_copyright p {
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        color: #cacaca;
+        font-size: 1.2rem;
+    }
+}

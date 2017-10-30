@@ -1,0 +1,143 @@
+/*公共*/
+* {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+a, a:hover, a:visited, a:focus {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mn {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.pn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.mr_5 {
+    margin-right: 5px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+/* 宽屏电脑 */
+@media (min-width: 1200px) {
+    .logo {
+        display: inline-block;
+        float: left;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .login .dropdown-menu {
+        width: 200px !important;
+        line-height: 30px;
+    }
+
+    .btn_search {
+        background: red !important;
+        color: #fff !important;
+    }
+
+    .timeL {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #999999
+    }
+
+    .carousel_person {
+        width: 130px;
+        height: 160px;
+    }
+
+    .control_hidden_left, .control_hidden_right {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .0) 0, rgba(0, 0, 0, 0) 100%) !important
+    }
+
+}
+
+/* 平板电脑和小屏电脑之间的分辨率的样式 */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/* 横向放置的手机和竖直放置的平板之间分辨率的样式 */
+@media (max-width: 767px) {
+}
+
+/* 横向放置的手机及分辨率更小的设备的样式 */
+@media (max-width: 480px) {
+    .logo {
+        display: inline-block;
+        float: left;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .login .dropdown-menu {
+        width: 200px !important;
+        line-height: 30px;
+    }
+
+    .btn_search {
+        background: red !important;
+        color: #fff !important;
+    }
+
+    .timeL {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #999999
+    }
+}

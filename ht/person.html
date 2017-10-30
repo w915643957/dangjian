@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>党员详情</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap-table.css">
+    <link rel="stylesheet" href="css/style.min862f.css">
+    <link rel="stylesheet" href="css/rule.css">
+
+</head>
+<body>
+<form action="#" class="form-horizontal">
+    <div class="row-fluid">
+        <div class="col-md-12">
+            <div class="ibox float-e-margins">
+                <!--<div class="ibox-title primary">
+                    <h5>查看信息</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>-->
+                <div class="">
+                    <div class="panel-body p0">
+                        <div class="row-fluid">
+                            <div class="col-md-8 mt_10">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseEle">入党资料</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseEle" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">入党申请书：</label>
+                                                        <div class="col-sm-9">
+                                                            <p class="form-control-static"><a
+                                                                    href="入党申请书.docx">入党申请书</a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">入党志愿书：</label>
+                                                        <div class="col-sm-9">
+                                                            <p class="form-control-static"><a
+                                                                    href="入党申请书.docx">入党志愿书</a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">转正申请：</label>
+                                                        <div class="col-sm-9">
+                                                            <p class="form-control-static"><a href="#">转正申请</a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">培养联系人：</label>
+                                                        <div class="col-sm-9">
+                                                            <p class="form-control-static">王XX</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">党组织派人谈话内容：</label>
+                                                        <div class="col-sm-9">
+                                                            <textarea name="talk_one" id="" rows="4"
+                                                                      class="form-control" readonly></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">培养教育考察意见：</label>
+                                                        <div class="col-sm-9">
+                                                            <textarea name="talk_two" id="" rows="4"
+                                                                      class="form-control" readonly></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseOne">基本信息</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">姓名：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">身份证号码：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">性别：</label>
+                                                        <div class="col-sm-4 ">
+                                                            <label class="radio-inline" for="optionsRadios1">
+                                                                <input type="radio" checked="" value="option1"
+                                                                       id="optionsRadios"
+                                                                       name="optionsRadios1">男</label>
+                                                            <label class="radio-inline" for="optionsRadios2">
+                                                                <input type="radio" value="option2" id="optionsRadios"
+                                                                       name="optionsRadios2">女</label>
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">民族：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">籍贯：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label" for="-NaN">是否台湾省籍：</label>
+                                                        <div class="col-sm-4">
+                                                            <label class="radio-inline" for="-NaN">
+                                                                <input type="radio" checked="" value="option1" id="-NaN"
+                                                                       name="optionsRadios3">是</label>
+                                                            <label class="radio-inline" for="-NaN">
+                                                                <input type="radio" value="option2" id="-NaN"
+                                                                       name="optionsRadios4">否</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">出生日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">学历：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">人员类别：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">所在党支部代码：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">加入党组织日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">转为正式党员日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">工作岗位：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">联系电话：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseTwo">扩展信息</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">婚姻状况：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">参加工作日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">档案管理单位名称：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">家庭住址：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">聘任专业技术职务名称：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">新社会阶层类型：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">一线情况：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">照片：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="file" name="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">党员培训情况：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">当前党籍状态：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">党龄：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">政治面貌：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">预备党员转正情况：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">入党时所在党支部代码：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">是否未本单位发展：</label>
+                                                    <div class="col-sm-4">
+                                                        <label class="radio-inline" for="optionsRadios3">
+                                                            <input type="radio" checked="" value="option1"
+                                                                   id="optionsRadios3"
+                                                                   name="optionsRadios5">是</label>
+                                                        <label class="radio-inline" for="optionsRadios3">
+                                                            <input type="radio" value="option2" id="optionsRadios3"
+                                                                   name="optionsRadios6">否</label>
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">学历：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">入党介绍人：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">进入党支部类型：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">进入基层党组织日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">加入党组织的类别 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">离开党组织的类别 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">离开党组织日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">出党原因 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">恢复党籍日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">流出类型 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">是否持《中国共产党流动党员活动证》：</label>
+                                                    <div class="col-sm-4">
+                                                        <label class="radio-inline" for="optionsRadios4">
+                                                            <input type="radio" checked="" value="option1"
+                                                                   id="optionsRadios4"
+                                                                   name="optionsRadios7">是</label>
+                                                        <label class="radio-inline" for="optionsRadios4">
+                                                            <input type="radio" value="option2" id="optionsRadios4"
+                                                                   name="optionsRadios8">否</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">是否明确流入党组织：</label>
+                                                    <div class="col-sm-4">
+                                                        <label class="radio-inline" for="optionsRadios5">
+                                                            <input type="radio" checked="" value="option1"
+                                                                   id="optionsRadios5"
+                                                                   name="optionsRadios9">是</label>
+                                                        <label class="radio-inline" for="optionsRadios5">
+                                                            <input type="radio" value="option2" id="optionsRadios5"
+                                                                   name="optionsRadios10">否</label>
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">外出流向：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">外出原因 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">流出地（单位）：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">流出日期 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">流出党支部联系人姓名：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">流出党支部联系人联系方式：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">调往单位性质类别 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">流入类型 ：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">流动中共党员与党组织联系情况：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">结束流动日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">是否已停止流动：</label>
+                                                    <div class="col-sm-4">
+                                                        <label class="radio-inline" for="optionsRadios6">
+                                                            <input type="radio" checked="" value="option1"
+                                                                   id="optionsRadios6"
+                                                                   name="optionsRadios11">是</label>
+                                                        <label class="radio-inline" for="optionsRadios6">
+                                                            <input type="radio" value="option2" id="optionsRadios6"
+                                                                   name="optionsRadios12">否</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">失去联系日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                    <label class="col-sm-2 control-label">是否为整建制进入：</label>
+                                                    <div class="col-sm-4">
+                                                        <label class="radio-inline" for="optionsRadios7">
+                                                            <input type="radio" checked="" value="option1"
+                                                                   id="optionsRadios7"
+                                                                   name="optionsRadios13">是</label>
+                                                        <label class="radio-inline" for="optionsRadios7">
+                                                            <input type="radio" value="option2" id="optionsRadios7"
+                                                                   name="optionsRadios14">否</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">转离该基层党组织日期：</label>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" name="" class="form-control" readonly="true">
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseThree">奖惩情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">奖惩名称：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">奖惩说明：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">奖惩决定原始文件：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="file" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">奖惩原因：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">奖惩批准机关：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">批准机关级别：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">惩奖批准日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">惩奖撤销日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseFour">民主评议情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">开展评议日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">结束评议日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">评议结果：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">评议奖惩情况：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">评议奖惩原因：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseFive">出国出境情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFive" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">所至国家（地区）名称：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">出国（境）日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">出国（境）目的：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">出国党员与党组织联系情况：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">党籍处理方式：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">申请保留（停止）党籍时间：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">回国情况：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">回国日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">恢复组织生活情况：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">申请恢复组织生活日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">申请恢复组织生活日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">出国（境）事项说明：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseSix">困难情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseSix" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">生活困难类型：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">是否享受城镇最低生活保障：</label>
+                                                        <div class="col-sm-4">
+                                                            <label class="radio-inline" for="optionsRadios8">
+                                                                <input type="radio" checked="" value="option1"
+                                                                       id="optionsRadios8"
+                                                                       name="optionsRadios21">男</label>
+                                                            <label class="radio-inline" for="optionsRadios8">
+                                                                <input type="radio" value="option2" id="optionsRadios8"
+                                                                       name="optionsRadios22">女</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">生活困难情况补充：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">建国前入党没有工作老党员：</label>
+                                                        <div class="col-sm-4">
+                                                            <label class="radio-inline" for="optionsRadios9">
+                                                                <input type="radio" checked="" value="option1"
+                                                                       id="optionsRadios9"
+                                                                       name="optionsRadios23">男</label>
+                                                            <label class="radio-inline" for="optionsRadios9">
+                                                                <input type="radio" value="option2" id="optionsRadios9"
+                                                                       name="optionsRadios24">女</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">健康状况：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">是否享受优抚对象抚恤补助：</label>
+                                                        <div class="col-sm-4">
+                                                            <label class="radio-inline" for="optionsRadios10">
+                                                                <input type="radio" checked="" value="option1"
+                                                                       id="optionsRadios10"
+                                                                       name="optionsRadios25">男</label>
+                                                            <label class="radio-inline" for="optionsRadios10">
+                                                                <input type="radio" value="option2" id="optionsRadios10"
+                                                                       name="optionsRadios26">女</label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseSeven">家庭成员及社会关系人员情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseSeven" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">与本人关系：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员姓名：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员性别：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员证件号码：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员民族：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员政治面貌：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">家庭成员及社会关系人员工作单位及职务：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">联系电话：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseEight">参加组织活动情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseEight" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">参加组织活动日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">参加组织活动地点：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">参加组织活动类别：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">组织活动详细记录：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseNine">缴纳党费情况</a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseNine" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">缴纳党费标准：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">党费缴纳基数：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">党费计算比例：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">每月应缴纳党费：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">本次缴纳党费类别：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">本次缴纳党费月份：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">本次缴纳金额：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                        <label class="col-sm-2 control-label">大额党费缴纳日期：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label">大额党费缴纳金额：</label>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" name="" class="form-control"
+                                                                   readonly="true">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pn mt_15">
+                                <div class="path">
+                                    <h3><em>您所在阶段：</em><span class="text-success"><a
+                                            href="#status3">申请人</a></span>&gt;<span class="text-success">党组织派人谈话</span>
+                                    </h3>
+                                </div>
+                                <a id="ibox-content">
+                                    <div id="vertical-timeline">
+                                        <div id="status1" class="vertical-timeline-block">
+                                            <div class="vertical-timeline-icon navy-bg">
+                                                <i class="fa fa-flag"></i>
+                                            </div>
+                                            <div class="vertical-timeline-content">
+                                                <h4>一、申请入党</h4>
+                                                <!--<a href="#" class="label label-primary pull-right" data-toggle="modal">查看</a>-->
+                                                <p class="text-info">1、递交入党申请书</p>
+                                                <p class="text-info">2、党组织派人谈话</p>
+                                                <span class="vertical-date"><small>2月3日</small></span>
+                                            </div>
+                                        </div>
+                                        <div id="status2" class="vertical-timeline-block">
+                                            <div class="vertical-timeline-icon yellow-bg">
+                                                <i class="fa fa-flag"></i>
+                                            </div>
+
+                                            <div class="vertical-timeline-content">
+                                                <h4>二、入党积极分子的确定和培养教育</h4>
+                                                <p class="text-danger">3、推荐和确定入党积极分子</p>
+                                                <p class="text-danger">4、上级党委备案</p>
+                                                <p class="text-danger">5、指定培养联系人</p>
+                                                <p class="text-danger">6、培养教育考察</p>
+                                                <span class="vertical-date"><small>6月6日</small></span>
+                                            </div>
+                                        </div>
+
+                                        <div id="status3" class="vertical-timeline-block">
+                                            <div class="vertical-timeline-icon red-bg">
+                                                <i class="fa fa-flag"></i>
+                                            </div>
+
+                                            <div class="vertical-timeline-content">
+                                                <h4>三、发展对象的确定和考察</h4>
+                                                <p class="text-danger">7、确定发展对象</p>
+                                                <p class="text-danger">8、报上级党委备案</p>
+                                                <p class="text-danger">9、确定入党介绍人</p>
+                                                <p class="text-danger">10、进行政治审查</p>
+                                                <p class="text-danger">11、开展集中培训</p>
+                                                <!--<span class="vertical-date"><small>2月3日</small></span>-->
+                                            </div>
+                                        </div>
+
+                                        <div id="status4" class="vertical-timeline-block">
+                                            <div class="vertical-timeline-icon red-bg">
+                                                <i class="fa fa-flag"></i>
+                                            </div>
+
+                                            <div class="vertical-timeline-content">
+                                                <h4>四、预备党员的接收</h4>
+                                                <p class="text-danger">12、支部委员会审查</p>
+                                                <p class="text-danger">13、上级党委预审</p>
+                                                <p class="text-danger">14、填写入党志愿书</p>
+                                                <p class="text-danger">15、支部大会讨论</p>
+                                                <p class="text-danger">16、上级党委派人谈话</p>
+                                                <p class="text-danger">17、上级党委审批</p>
+                                                <p class="text-danger">18、再上一级党委组织部门备案</p>
+                                                <!--<span class="vertical-date"><small>2月3日</small></span>-->
+                                            </div>
+                                        </div>
+
+                                        <div id="status5" class="vertical-timeline-block">
+                                            <div class="vertical-timeline-icon red-bg">
+                                                <i class="fa fa-flag"></i>
+                                            </div>
+
+                                            <div class="vertical-timeline-content">
+                                                <h4>五、预备党员的教育考察和转正</h4>
+                                                <p class="text-danger">19、编入党支部和党小组</p>
+                                                <p class="text-danger">20、入党宣誓</p>
+                                                <p class="text-danger">21、继续培养教育考察</p>
+                                                <p class="text-danger">22、提出转正申请</p>
+                                                <p class="text-danger">23、支部大会讨论</p>
+                                                <p class="text-danger">24、上级党委审批</p>
+                                                <p class="text-danger">25、材料归档</p>
+                                                <!--<span class="vertical-date"><small>2月3日</small></span>-->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb_15">
+                <a href="javascript:history.back();">
+                    <div class="btn btn-danger btn-sm">返回</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</form>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/content.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-table.js"></script>
+<script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent
+}
+
+html {
+    background: white;
+    color: black
+}
+
+body {
+    font-size: 10px;
+    font-family: "微软雅黑", arial, sans-serif
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block
+}
+
+ol, ul {
+    list-style: none
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+iframe {
+    display: block
+}
+
+a:focus, *:focus {
+    outline: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent
+}
+
+input, select {
+    vertical-align: middle
+}
+
+body, button, input, select, textarea {
+    font: 1.4rem '微软雅黑', arial, sans-serif
+}
+
+input, select, textarea {
+    font-size: 100%
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th {
+    text-align: inherit
+}
+
+.act {
+}
+
+.pa {
+    position: absolute
+}
+
+.pr {
+    position: relative
+}
+
+.flex {
+    display: flex
+}
+
+.space_a {
+    justify-content: space-around
+}
+
+.space_b {
+    justify-content: space-between
+}
+
+.hide {
+    display: none
+}
+
+.block {
+    display: block
+}
+
+.fl, .fr {
+    display: inline
+}
+
+.marin_l0 {
+    margin-left: 0
+}
+
+.marin_r0 {
+    margin-right: 0
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.pl0 {
+    padding-left: 0
+}
+
+.pr0 {
+    padding-right: 0
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+/*body{background-color:#f8f8f8}*/
+a, a:hover, a:visited, a:focus {
+    outline: none;
+    text-decoration: none;
+    font-family: "微软雅黑"
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.mn {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.pn {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.p5 {
+    padding: 5px
+}
+
+.p10 {
+    padding: 10px
+}
+
+.pb_15 {
+    padding-bottom: 15px;
+}
+
+.bg_f8 {
+    background-color: #fff
+}
+
+.m0 {
+    margin: 0px !important;
+}
+
+.m5 {
+    margin: 5px
+}
+
+.mr_5 {
+    margin-right: 5px
+}
+
+.m10 {
+    margin: 10px
+}
+
+.mt_10 {
+    margin-top: 10px
+}
+
+.mt_15 {
+    margin-top: 15px
+}
+
+.mt_15 {
+    margin-top: 15px
+}
+
+.mb_15 {
+    margin-bottom: 15px
+}
+
+.border_no {
+    border: none !important;
+}
+
+.ztree {
+    max-height: 550px;
+}
+
+.primary {
+    color: #fff !important;
+    background-color: #1c84c6 !important;
+}
+
+.danger {
+    color: #fff !important;
+    background-color: #ed5565 !important;
+}
+
+.warning {
+    color: #fff !important;
+    background-color: #f8ac59 !important;
+}
+
+.info {
+    color: #fff !important;
+    background-color: #f8ac59 !important;
+}
+
+.success {
+    color: #fff !important;
+    background-color: #1ab394 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ddd
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999
+}
+
+.modal-footer {
+    padding: 10px !important;
+}

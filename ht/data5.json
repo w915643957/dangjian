@@ -1,0 +1,134 @@
+[
+  {
+    "name": "曹丽娜",
+    "sex": "女",
+    "oldhome": "湖北",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司机关党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "魏天霞 ",
+    "sex": "女",
+    "oldhome": "湖南",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司基地管理中心党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "胡丹丹",
+    "sex": "女",
+    "oldhome": "北京",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司福州地铁项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "陈宏子",
+    "sex": "男",
+    "oldhome": "上海",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司博贺湾大桥项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "秦婷婷",
+    "sex": "女",
+    "oldhome": "江苏",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司荔榕七标项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "李剑",
+    "sex": "男",
+    "oldhome": "内蒙古",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司三门湾项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "范志坚",
+    "sex": "男",
+    "oldhome": "安徽",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司申嘉湖1标项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "胡书琴",
+    "sex": "女",
+    "oldhome": "新疆",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司甬台温8标项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "王艳红",
+    "sex": "女",
+    "oldhome": "福建",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司淮安项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "吴巧芬",
+    "sex": "女",
+    "oldhome": "广东",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司青海牙同项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "张琪",
+    "sex": "女",
+    "oldhome": "四川",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司平罗13标项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  },
+  {
+    "name": "毛春华",
+    "sex": "女",
+    "oldhome": "北京",
+    "nation": "汉族",
+    "work": "中国交建",
+    "organization": "二公局一公司潮汕环线项目党支部",
+    "time": "2017-08-08",
+    "tel": "135********",
+    "action": "<a href='person.html'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+  }
+]

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>党员详情</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap-table.css">
+    <link rel="stylesheet" href="css/plugins/chosen/chosen.css">
+    <link rel="stylesheet" href="css/rule.css">
+    <link rel="stylesheet" href="css/style.min862f.css">
+</head>
+<body>
+<form action="#" class="form-horizontal">
+    <div class="row-fluid">
+        <div class="col-md-12">
+            <div class="ibox float-e-margins">
+                <!--  <div class="ibox-title primary">
+                      <h5>新增党员信息</h5>
+                      <div class="ibox-tools">
+                          <a class="collapse-link">
+                              <i class="fa fa-chevron-up"></i>
+                          </a>
+                      </div>
+                  </div>-->
+                <div class="ibox-content p0">
+                    <div class="panel-body">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseOne">党员基本信息填写</a>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">姓名：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                                <label class="col-sm-2 control-label">身份证号码：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">性别：</label>
+                                                <div class="col-sm-4">
+                                                    <label class="radio-inline" for="optionsRadios1">
+                                                        <input type="radio" checked="" value="option1"
+                                                               id="optionsRadios1" name="optionsRadios1">男</label>
+                                                    <label class="radio-inline" for="optionsRadios1">
+                                                        <input type="radio" value="option2" id="optionsRadios1"
+                                                               name="optionsRadios2">女</label>
+                                                </div>
+                                                <label class="col-sm-2 control-label">民族：</label>
+                                                <div class="col-sm-4">
+                                                    <select class="form-control" name=""></select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">籍贯：</label>
+                                                <div class="col-sm-4">
+                                                    <select data-placeholder="选择省份" class="chosen-select form-control"
+                                                            tabindex="4">
+                                                        <option value="">请选择省份</option>
+                                                        <option value="110000" hassubinfo="true">北京</option>
+                                                        <option value="120000" hassubinfo="true">天津</option>
+                                                        <option value="130000" hassubinfo="true">河北省</option>
+                                                        <option value="140000" hassubinfo="true">山西省</option>
+                                                        <option value="150000" hassubinfo="true">内蒙古自治区</option>
+                                                        <option value="210000" hassubinfo="true">辽宁省</option>
+                                                        <option value="220000" hassubinfo="true">吉林省</option>
+                                                        <option value="230000" hassubinfo="true">黑龙江省</option>
+                                                        <option value="310000" hassubinfo="true">上海</option>
+                                                        <option value="320000" hassubinfo="true">江苏省</option>
+                                                        <option value="330000" hassubinfo="true">浙江省</option>
+                                                        <option value="340000" hassubinfo="true">安徽省</option>
+                                                        <option value="350000" hassubinfo="true">福建省</option>
+                                                        <option value="360000" hassubinfo="true">江西省</option>
+                                                        <option value="370000" hassubinfo="true">山东省</option>
+                                                        <option value="410000" hassubinfo="true">河南省</option>
+                                                        <option value="420000" hassubinfo="true">湖北省</option>
+                                                        <option value="430000" hassubinfo="true">湖南省</option>
+                                                        <option value="440000" hassubinfo="true">广东省</option>
+                                                        <option value="450000" hassubinfo="true">广西壮族自治区</option>
+                                                        <option value="460000" hassubinfo="true">海南省</option>
+                                                        <option value="500000" hassubinfo="true">重庆</option>
+                                                        <option value="510000" hassubinfo="true">四川省</option>
+                                                        <option value="520000" hassubinfo="true">贵州省</option>
+                                                        <option value="530000" hassubinfo="true">云南省</option>
+                                                        <option value="540000" hassubinfo="true">西藏自治区</option>
+                                                        <option value="610000" hassubinfo="true">陕西省</option>
+                                                        <option value="620000" hassubinfo="true">甘肃省</option>
+                                                        <option value="630000" hassubinfo="true">青海省</option>
+                                                        <option value="640000" hassubinfo="true">宁夏回族自治区</option>
+                                                        <option value="650000" hassubinfo="true">新疆维吾尔自治区</option>
+                                                        <option value="710000" hassubinfo="true">台湾省</option>
+                                                        <option value="810000" hassubinfo="true">香港特别行政区</option>
+                                                        <option value="820000" hassubinfo="true">澳门特别行政区</option>
+                                                        <option value="990000" hassubinfo="true">海外</option>
+                                                    </select>
+                                                </div>
+                                                <label class="col-sm-2 control-label" for="-NaN">是否台湾省籍：</label>
+                                                <div class="col-sm-4">
+                                                    <label class="radio-inline" for="-NaN">
+                                                        <input type="radio" checked="" value="option1" id="-NaN"
+                                                               name="optionsRadios3">是</label>
+                                                    <label class="radio-inline" for="-NaN">
+                                                        <input type="radio" value="option2" id="-NaN"
+                                                               name="optionsRadios4">否</label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">出生日期：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                                <label class="col-sm-2 control-label">学历：</label>
+                                                <div class="col-sm-4">
+                                                    <select class="form-control" name=""></select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">人员类别：</label>
+                                                <div class="col-sm-4">
+                                                    <select class="form-control" name=""></select>
+                                                </div>
+                                                <label class="col-sm-2 control-label">所在党支部代码：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">加入党组织日期：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                                <label class="col-sm-2 control-label">转为正式党员日期：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">工作岗位：</label>
+                                                <div class="col-sm-4">
+                                                    <select class="form-control" name=""></select>
+                                                </div>
+                                                <label class="col-sm-2 control-label">联系电话：</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseTwo">党员扩展信息填写</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">婚姻状况：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">参加工作日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">档案管理单位名称：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">家庭住址：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">聘任专业技术职务名称：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">新社会阶层类型：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">一线情况：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">照片：</label>
+                                            <div class="col-sm-4">
+                                                <input type="file" name="" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">党员培训情况：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">当前党籍状态：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">党龄：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">政治面貌：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">预备党员转正情况：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">入党时所在党支部代码：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">是否未本单位发展：</label>
+                                            <div class="col-sm-4">
+                                                <label class="radio-inline" for="optionsRadios3">
+                                                    <input type="radio" checked="" value="option1" id="optionsRadios3"
+                                                           name="optionsRadios5">是</label>
+                                                <label class="radio-inline" for="optionsRadios3">
+                                                    <input type="radio" value="option2" id="optionsRadios3"
+                                                           name="optionsRadios6">否</label>
+                                            </div>
+                                            <label class="col-sm-2 control-label">学历：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">入党介绍人：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">进入党支部类型：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">进入基层党组织日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">加入党组织的类别 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">离开党组织的类别 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">离开党组织日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">出党原因 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">恢复党籍日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">流出类型 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">是否持《中国共产党流动党员活动证》：</label>
+                                            <div class="col-sm-4">
+                                                <label class="radio-inline" for="optionsRadios4">
+                                                    <input type="radio" checked="" value="option1" id="optionsRadios4"
+                                                           name="optionsRadios7">是</label>
+                                                <label class="radio-inline" for="optionsRadios4">
+                                                    <input type="radio" value="option2" id="optionsRadios4"
+                                                           name="optionsRadios8">否</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">是否明确流入党组织：</label>
+                                            <div class="col-sm-4">
+                                                <label class="radio-inline" for="optionsRadios5">
+                                                    <input type="radio" checked="" value="option1" id="optionsRadios5"
+                                                           name="optionsRadios9">是</label>
+                                                <label class="radio-inline" for="optionsRadios5">
+                                                    <input type="radio" value="option2" id="optionsRadios5"
+                                                           name="optionsRadios10">否</label>
+                                            </div>
+                                            <label class="col-sm-2 control-label">外出流向：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">外出原因 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">流出地（单位）：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">流出日期 ：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">流出党支部联系人姓名：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">流出党支部联系人联系方式：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">调往单位性质类别 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">流入类型 ：</label>
+                                            <div class="col-sm-4">
+                                                <select class="form-control" name=""></select>
+                                            </div>
+                                            <label class="col-sm-2 control-label">流动中共党员与党组织联系情况：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">结束流动日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">是否已停止流动：</label>
+                                            <div class="col-sm-4">
+                                                <label class="radio-inline" for="optionsRadios6">
+                                                    <input type="radio" checked="" value="option1" id="optionsRadios6"
+                                                           name="optionsRadios11">是</label>
+                                                <label class="radio-inline" for="optionsRadios6">
+                                                    <input type="radio" value="option2" id="optionsRadios6"
+                                                           name="optionsRadios12">否</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">失去联系日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                            <label class="col-sm-2 control-label">是否为整建制进入：</label>
+                                            <div class="col-sm-4">
+                                                <label class="radio-inline" for="optionsRadios7">
+                                                    <input type="radio" checked="" value="option1" id="optionsRadios7"
+                                                           name="optionsRadios13">是</label>
+                                                <label class="radio-inline" for="optionsRadios7">
+                                                    <input type="radio" value="option2" id="optionsRadios7"
+                                                           name="optionsRadios14">否</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">转离该基层党组织日期：</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-right">
+                            <a href="javascript:history.back();">
+                                <div class="btn btn-danger btn-sm">提交</div>
+                            </a>
+                            <a href="javascript:history.back();">
+                                <div class="btn btn-default btn-sm">取消</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</form>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/content.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-table.js"></script>
+<script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+<script type="text/javascript" src="js/plugins/chosen/chosen.jquery.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": {allow_single_deselect: !0},
+            ".chosen-select-no-single": {disable_search_threshold: 10},
+            ".chosen-select-no-results": {no_results_text: "Oops, nothing found!"},
+            ".chosen-select-width": {width: "95%"}
+        };
+        for (var selector in config) $(selector).chosen(config[selector]);
+    })
+</script>
