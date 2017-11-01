@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap-table.css">
+    <link rel="stylesheet" href="css/plugins/chosen/chosen.css"><!--输入选择下拉插件-->
     <link rel="stylesheet" href="css/rule.css">
     <link rel="stylesheet" href="css/style.min862f.css">
+    <link rel="stylesheet" href="css/formValidation.min.css"><!--表单验证插件-->
 </head>
 <body>
-<form action="#" class="form-horizontal">
     <div class="row-fluid">
         <div class="col-md-12">
             <div class="ibox float-e-margins">
@@ -26,6 +27,7 @@
                   </div>-->
                 <div class="ibox-content p0">
                     <div class="panel-body">
+
                         <div class="panel-group" id="accordion">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -34,92 +36,129 @@
                                            href="#collapseOne">基本信息</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="jbxx">
                                 <div id="collapseOne" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">姓名：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="PersonName" class="form-control" placeholder="请输入姓名">
                                                 </div>
                                                 <label class="col-sm-2 control-label">身份证号码：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="CredentialsID" class="form-control" placeholder="请输入身份证号码">
                                                 </div>
                                             </div>
+
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">性别：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="optionsRadios1">
-                                                        <input type="radio" checked="" value="option1"
-                                                               id="optionsRadios1" name="optionsRadios1">男</label>
-                                                    <label class="radio-inline" for="optionsRadios1">
-                                                        <input type="radio" value="option2" id="optionsRadios1"
-                                                               name="optionsRadios2">女</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />男</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="1" />女</label>
                                                 </div>
                                                 <label class="col-sm-2 control-label">民族：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="EthnicGroup"></select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">籍贯：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select data-placeholder="选择省份" class="chosen-select form-control"
+                                                            tabindex="4" name="NativePlace">
+                                                        <option value="">请选择省份</option>
+                                                        <option value="110000" hassubinfo="true">北京</option>
+                                                        <option value="120000" hassubinfo="true">天津</option>
+                                                        <option value="130000" hassubinfo="true">河北省</option>
+                                                        <option value="140000" hassubinfo="true">山西省</option>
+                                                        <option value="150000" hassubinfo="true">内蒙古自治区</option>
+                                                        <option value="210000" hassubinfo="true">辽宁省</option>
+                                                        <option value="220000" hassubinfo="true">吉林省</option>
+                                                        <option value="230000" hassubinfo="true">黑龙江省</option>
+                                                        <option value="310000" hassubinfo="true">上海</option>
+                                                        <option value="320000" hassubinfo="true">江苏省</option>
+                                                        <option value="330000" hassubinfo="true">浙江省</option>
+                                                        <option value="340000" hassubinfo="true">安徽省</option>
+                                                        <option value="350000" hassubinfo="true">福建省</option>
+                                                        <option value="360000" hassubinfo="true">江西省</option>
+                                                        <option value="370000" hassubinfo="true">山东省</option>
+                                                        <option value="410000" hassubinfo="true">河南省</option>
+                                                        <option value="420000" hassubinfo="true">湖北省</option>
+                                                        <option value="430000" hassubinfo="true">湖南省</option>
+                                                        <option value="440000" hassubinfo="true">广东省</option>
+                                                        <option value="450000" hassubinfo="true">广西壮族自治区</option>
+                                                        <option value="460000" hassubinfo="true">海南省</option>
+                                                        <option value="500000" hassubinfo="true">重庆</option>
+                                                        <option value="510000" hassubinfo="true">四川省</option>
+                                                        <option value="520000" hassubinfo="true">贵州省</option>
+                                                        <option value="530000" hassubinfo="true">云南省</option>
+                                                        <option value="540000" hassubinfo="true">西藏自治区</option>
+                                                        <option value="610000" hassubinfo="true">陕西省</option>
+                                                        <option value="620000" hassubinfo="true">甘肃省</option>
+                                                        <option value="630000" hassubinfo="true">青海省</option>
+                                                        <option value="640000" hassubinfo="true">宁夏回族自治区</option>
+                                                        <option value="650000" hassubinfo="true">新疆维吾尔自治区</option>
+                                                        <option value="710000" hassubinfo="true">台湾省</option>
+                                                        <option value="810000" hassubinfo="true">香港特别行政区</option>
+                                                        <option value="820000" hassubinfo="true">澳门特别行政区</option>
+                                                        <option value="990000" hassubinfo="true">海外</option>
+                                                    </select>
                                                 </div>
-                                                <label class="col-sm-2 control-label" for="-NaN">是否台湾省籍：</label>
+                                                <label class="col-sm-2 control-label" >是否台湾省籍：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="-NaN">
-                                                        <input type="radio" checked="" value="option1" id="-NaN"
-                                                               name="optionsRadios3">是</label>
-                                                    <label class="radio-inline" for="-NaN">
-                                                        <input type="radio" value="option2" id="-NaN"
-                                                               name="optionsRadios4">否</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="IsTaiwan" value="0" />是</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="IsTaiwan" value="1" />否</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">出生日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="Birthday" id="Birthday" class="form-control" placeholder="请选择日期">
                                                 </div>
                                                 <label class="col-sm-2 control-label">学历：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="Education"></select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">人员类别：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="PersonType"></select>
                                                 </div>
                                                 <label class="col-sm-2 control-label">所在党支部代码：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="PartyBranchCode" class="form-control" placeholder="请输入党支部代码">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">加入党组织日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="JoinBranchDate" class="form-control" placeholder="请选择日期">
                                                 </div>
                                                 <label class="col-sm-2 control-label">转为正式党员日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="BecameFormalDate" class="form-control" placeholder="请选择日期">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">工作岗位：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="WorkPost"></select>
                                                 </div>
                                                 <label class="col-sm-2 control-label">联系电话：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="MobilePhone" class="form-control" placeholder="请输入联系电话">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -128,6 +167,7 @@
                                            href="#collapseTwo">扩展信息</a>
                                     </h4>
                                 </div>
+                                <form action="" class="form-horizontal" id="kzxx">
                                 <div id="collapseTwo" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="form-group">
@@ -203,12 +243,10 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">是否未本单位发展：</label>
                                             <div class="col-sm-4">
-                                                <label class="radio-inline" for="optionsRadios3">
-                                                    <input type="radio" checked="" value="option1" id="optionsRadios3"
-                                                           name="optionsRadios5">是</label>
-                                                <label class="radio-inline" for="optionsRadios3">
-                                                    <input type="radio" value="option2" id="optionsRadios3"
-                                                           name="optionsRadios6">否</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />是</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />否</label>
                                             </div>
                                             <label class="col-sm-2 control-label">学历：</label>
                                             <div class="col-sm-4">
@@ -262,23 +300,19 @@
                                             </div>
                                             <label class="col-sm-2 control-label">是否持《中国共产党流动党员活动证》：</label>
                                             <div class="col-sm-4">
-                                                <label class="radio-inline" for="optionsRadios4">
-                                                    <input type="radio" checked="" value="option1" id="optionsRadios4"
-                                                           name="optionsRadios7">是</label>
-                                                <label class="radio-inline" for="optionsRadios4">
-                                                    <input type="radio" value="option2" id="optionsRadios4"
-                                                           name="optionsRadios8">否</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />是</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />否</label>
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">是否明确流入党组织：</label>
                                             <div class="col-sm-4">
-                                                <label class="radio-inline" for="optionsRadios5">
-                                                    <input type="radio" checked="" value="option1" id="optionsRadios5"
-                                                           name="optionsRadios9">是</label>
-                                                <label class="radio-inline" for="optionsRadios5">
-                                                    <input type="radio" value="option2" id="optionsRadios5"
-                                                           name="optionsRadios10">否</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />是</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />否</label>
                                             </div>
                                             <label class="col-sm-2 control-label">外出流向：</label>
                                             <div class="col-sm-4">
@@ -333,12 +367,10 @@
                                             </div>
                                             <label class="col-sm-2 control-label">是否已停止流动：</label>
                                             <div class="col-sm-4">
-                                                <label class="radio-inline" for="optionsRadios6">
-                                                    <input type="radio" checked="" value="option1" id="optionsRadios6"
-                                                           name="optionsRadios11">是</label>
-                                                <label class="radio-inline" for="optionsRadios6">
-                                                    <input type="radio" value="option2" id="optionsRadios6"
-                                                           name="optionsRadios12">否</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />是</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />否</label>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -348,12 +380,10 @@
                                             </div>
                                             <label class="col-sm-2 control-label">是否为整建制进入：</label>
                                             <div class="col-sm-4">
-                                                <label class="radio-inline" for="optionsRadios7">
-                                                    <input type="radio" checked="" value="option1" id="optionsRadios7"
-                                                           name="optionsRadios13">是</label>
-                                                <label class="radio-inline" for="optionsRadios7">
-                                                    <input type="radio" value="option2" id="optionsRadios7"
-                                                           name="optionsRadios14">否</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />是</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="Gender" value="0" />否</label>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -366,6 +396,7 @@
 
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -374,6 +405,7 @@
                                            href="#collapseThree">奖惩情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="jcqk">
                                 <div id="collapseThree" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -420,6 +452,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -428,6 +461,7 @@
                                            href="#collapseFour">民主评议情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="mzpy">
                                 <div id="collapseFour" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -462,6 +496,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -470,6 +505,7 @@
                                            href="#collapseFive">出国出境情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="cgcj">
                                 <div id="collapseFive" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -538,6 +574,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -546,6 +583,7 @@
                                            href="#collapseSix">困难情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="knqk">
                                 <div id="collapseSix" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -556,12 +594,10 @@
                                                 </div>
                                                 <label class="col-sm-2 control-label">是否享受城镇最低生活保障：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="optionsRadios8">
-                                                        <input type="radio" checked="" value="option1"
-                                                               id="optionsRadios8" name="optionsRadios21">男</label>
-                                                    <label class="radio-inline" for="optionsRadios8">
-                                                        <input type="radio" value="option2" id="optionsRadios8"
-                                                               name="optionsRadios22">女</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />男</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="1" />女</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -571,12 +607,10 @@
                                                 </div>
                                                 <label class="col-sm-2 control-label">建国前入党没有工作老党员：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="optionsRadios9">
-                                                        <input type="radio" checked="" value="option1"
-                                                               id="optionsRadios9" name="optionsRadios23">男</label>
-                                                    <label class="radio-inline" for="optionsRadios9">
-                                                        <input type="radio" value="option2" id="optionsRadios9"
-                                                               name="optionsRadios24">女</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />男</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />女</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -586,18 +620,17 @@
                                                 </div>
                                                 <label class="col-sm-2 control-label">是否享受优抚对象抚恤补助：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="optionsRadios10">
-                                                        <input type="radio" checked="" value="option1"
-                                                               id="optionsRadios10" name="optionsRadios25">男</label>
-                                                    <label class="radio-inline" for="optionsRadios10">
-                                                        <input type="radio" value="option2" id="optionsRadios10"
-                                                               name="optionsRadios26">女</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />男</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" />女</label>
                                                 </div>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -606,6 +639,7 @@
                                            href="#collapseSeven">家庭成员及社会关系人员情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="jtcy">
                                 <div id="collapseSeven" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -652,6 +686,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -660,6 +695,7 @@
                                            href="#collapseEight">参加组织活动情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="zzhd">
                                 <div id="collapseEight" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -686,6 +722,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">
@@ -694,6 +731,7 @@
                                            href="#collapseNine">缴纳党费情况</a>
                                     </h5>
                                 </div>
+                                <form action="" class="form-horizontal" id="jndf">
                                 <div id="collapseNine" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="col-md-12">
@@ -747,6 +785,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                         </div>
                         <div class="text-right">
@@ -763,12 +802,17 @@
         </div>
 
     </div>
-
-</form>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/content.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-table.js"></script>
-<script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+<script type="text/javascript" src="js/laydate/laydate.js"></script><!--日期控件-->
+<script type="text/javascript" src="js/laydate/datepicker.js"></script><!--日期控件方法-->
+<script type="text/javascript" src="js/plugins/bootstrap-table/bootstrap-table.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script type="text/javascript" src="js/plugins/chosen/chosen.jquery.js"></script><!--输入选择下拉插件-->
+<script type="text/javascript" src="js/inputSelect.js"></script><!--输入选择下拉插件触发-->
+<script type="text/javascript" src="js/formValidate/formValidation.min.js"></script><!--表单验证插件-->
+<script type="text/javascript" src="js/formValidate/framework/bootstrap.js"></script>
+<script type="text/javascript" src="js/formValidate/editValidate.js"></script><!--表单验证-->
+<script type="text/javascript" src="js/formValidate/language/zh_CN.js"></script><!--表单验证-->
 </body>
 </html>

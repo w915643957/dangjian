@@ -42,7 +42,6 @@
         background: #fff;
         border-right: solid 1px #ddd;
         height: 100%;
-        overflow: hidden
     }
 
     .navbar-default > li {
@@ -83,8 +82,8 @@
     }
 
     .left_nav > li > a {
-        padding: 5px 20px;
-        font-size: 18px;
+        padding: 5px 5px;
+        font-size: 16px;
         color: #333;
     }
 

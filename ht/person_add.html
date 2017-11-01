@@ -41,33 +41,32 @@
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">姓名：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="PersonName" class="form-control" placeholder="请输入姓名">
                                                 </div>
                                                 <label class="col-sm-2 control-label">身份证号码：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="CredentialsID" class="form-control" placeholder="请输入身份证号码">
                                                 </div>
                                             </div>
+
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">性别：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="optionsRadios1">
-                                                        <input type="radio" checked="" value="option1"
-                                                               id="optionsRadios1" name="optionsRadios1">男</label>
-                                                    <label class="radio-inline" for="optionsRadios1">
-                                                        <input type="radio" value="option2" id="optionsRadios1"
-                                                               name="optionsRadios2">女</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="0" checked="" />男</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="Gender" value="1" />女</label>
                                                 </div>
                                                 <label class="col-sm-2 control-label">民族：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="EthnicGroup"></select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">籍贯：</label>
                                                 <div class="col-sm-4">
                                                     <select data-placeholder="选择省份" class="chosen-select form-control"
-                                                            tabindex="4">
+                                                            tabindex="4" name="NativePlace">
                                                         <option value="">请选择省份</option>
                                                         <option value="110000" hassubinfo="true">北京</option>
                                                         <option value="120000" hassubinfo="true">天津</option>
@@ -106,54 +105,52 @@
                                                         <option value="990000" hassubinfo="true">海外</option>
                                                     </select>
                                                 </div>
-                                                <label class="col-sm-2 control-label" for="-NaN">是否台湾省籍：</label>
+                                                <label class="col-sm-2 control-label" >是否台湾省籍：</label>
                                                 <div class="col-sm-4">
-                                                    <label class="radio-inline" for="-NaN">
-                                                        <input type="radio" checked="" value="option1" id="-NaN"
-                                                               name="optionsRadios3">是</label>
-                                                    <label class="radio-inline" for="-NaN">
-                                                        <input type="radio" value="option2" id="-NaN"
-                                                               name="optionsRadios4">否</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="taiwan" value="0" />是</label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="taiwan" value="1" />否</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">出生日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="Birthday" class="form-control" placeholder="请选择日期">
                                                 </div>
                                                 <label class="col-sm-2 control-label">学历：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="education"></select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">人员类别：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="personType"></select>
                                                 </div>
                                                 <label class="col-sm-2 control-label">所在党支部代码：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="Partybranchcode" class="form-control" placeholder="请输入党支部代码">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">加入党组织日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="joinBranchDate" class="form-control" placeholder="请选择日期">
                                                 </div>
                                                 <label class="col-sm-2 control-label">转为正式党员日期：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="becameFormalDate" class="form-control" placeholder="请选择日期">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">工作岗位：</label>
                                                 <div class="col-sm-4">
-                                                    <select class="form-control" name=""></select>
+                                                    <select class="form-control" name="workPost"></select>
                                                 </div>
                                                 <label class="col-sm-2 control-label">联系电话：</label>
                                                 <div class="col-sm-4">
-                                                    <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                    <input type="text" name="MobilePhone" class="form-control" placeholder="请输入联系电话">
                                                 </div>
                                             </div>
                                         </div>
@@ -172,31 +169,31 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">婚姻状况：</label>
                                             <div class="col-sm-4">
-                                                <select class="form-control" name=""></select>
+                                                <select class="form-control" name="MaritalStatus"></select>
                                             </div>
                                             <label class="col-sm-2 control-label">参加工作日期：</label>
                                             <div class="col-sm-4">
-                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                <input type="text" name="BeginWorkDate" class="form-control" placeholder="请选择日期">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">档案管理单位名称：</label>
                                             <div class="col-sm-4">
-                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                <input type="text" name="fileInCompanyName" class="form-control" placeholder="请输入单位名称">
                                             </div>
                                             <label class="col-sm-2 control-label">家庭住址：</label>
                                             <div class="col-sm-4">
-                                                <input type="text" name="" class="form-control" placeholder="请输入文本">
+                                                <input type="text" name="HomeAddress" class="form-control" placeholder="请输入家庭住址">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">聘任专业技术职务名称：</label>
                                             <div class="col-sm-4">
-                                                <select class="form-control" name=""></select>
+                                                <select class="form-control" name="professionalName"></select>
                                             </div>
                                             <label class="col-sm-2 control-label">新社会阶层类型：</label>
                                             <div class="col-sm-4">
-                                                <select class="form-control" name=""></select>
+                                                <select class="form-control" name="TypesOfNewSocialStrata"></select>
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -427,8 +424,8 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/content.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-table.js"></script>
-<script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap-table/bootstrap-table.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
 <script type="text/javascript" src="js/plugins/chosen/chosen.jquery.js"></script>
 </body>
 </html>
