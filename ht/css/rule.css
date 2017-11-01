@@ -86,7 +86,9 @@ th {
     text-align: inherit
 }
 
-.act {
+.act{
+    background: #ddd !important;
+    color: red !important;
 }
 
 .pa {

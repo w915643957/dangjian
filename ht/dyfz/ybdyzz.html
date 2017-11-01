@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>预备党员转正</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-table.css">
+    <link rel="stylesheet" href="../css/style.min862f.css">
+    <link rel="stylesheet" href="../css/rule.css">
+    <link rel="stylesheet" href="../css/dy.css">
+    <link rel="stylesheet" href="../css/metroStyle/metroStyle.css" type="text/css">
+</head>
+<body>
+    <div class="container-fluid pn">
+        <div class="row-fluid">
+            <div class="col-md-3 pn">
+                <div class="ibox">
+                    <div class="ibox-title" style="border: none">
+                        <h5>党组织机构树</h5>
+                    </div>
+                    <div class="ibox-content pr5 pl5">
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 left_table">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title" style="border: none">
+                        <h5>预备党员转正管理</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link"><i class="fa fa-chevron-up aaa"></i></a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="table-responsive">
+                            <div id="toolbar">
+                                <a class="btn btn-danger btn-sm mr_5" href="stage5.html">新增</a>
+                            </div>
+                            <table id="zsdy_table" class="table table-hover table-bordered"
+                                   data-toggle="table"
+                                   data-url="data5.json"
+                                   data-click-to-select="true"
+                                   data-toolbar="#toolbar"
+                                   data-search="true"
+                                   data-sort-order="desc"
+                                   data-page-size="10"
+                                   data-pagination="true"
+                                   data-search-align="left"
+                                   data-mobile-responsive="true">
+                                <thead>
+                                <tr>
+                                    <th data-checkbox="true"></th>
+                                    <th data-field="name">姓名</th>
+                                    <th data-field="sex">性别</th>
+                                    <th data-field="oldhome">籍贯</th>
+                                    <th data-field="nation">民族</th>
+                                    <th data-field="work">工作单位</th>
+                                    <th data-field="organization">所在党支部</th>
+                                    <th data-field="time">申请入党时间</th>
+                                    <th data-field="tel">手机号</th>
+                                    <th data-field="action">操作</th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <div class="modal fade" id="modal-del" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content animated flipInY">
+                    <div class="modal-body text-center">
+                        <div class="wrapper mt_10">
+                            <h3 class="text-danger"><i class="fa fa-info-circle"></i> 是否确认删除此数据？<br>
+                                <small>删除后不可恢复。</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">确定</button>
+                        <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/content.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/bootstrap-table/bootstrap-table.js"></script>
+    <script type="text/javascript" src="../js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.ztree.all.js"></script>
+    <script type="text/javascript" src="../js/tree.js"></script>
+
+</body>
+</html>

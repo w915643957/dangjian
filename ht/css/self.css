@@ -21,6 +21,11 @@
         background: #db2d24
     }
 
+/*    .first_nav>>li>a:hover{
+        background: #ddd !important;
+        color: red !important;
+    }*/
+
     .nav-pills > li {
         line-height: 35px
     }
@@ -50,7 +55,7 @@
 
     .nav > li > a:focus, .nav > li > a:hover {
         background-color: #f8f8f8;
-        color: red
+        color: red !important;
     }
 
     .nav-second-level {
@@ -82,7 +87,7 @@
     }
 
     .left_nav > li > a {
-        padding: 5px 5px;
+        padding: 5px 20px;
         font-size: 16px;
         color: #333;
     }
