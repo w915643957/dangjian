@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-size: 10px;
+    font-size: 14px;
     font-family: "微软雅黑", arial, sans-serif
 }
 
@@ -87,8 +87,13 @@ th {
 }
 
 .act{
-    background: #ddd !important;
-    color: red !important;
+/*    background: #ddd !important;*/
+    color: #dc1f15 !important;
+ }
+
+.act2{
+    border-bottom: #dc1f15 2px solid !important;
+    color: #dc1f15 !important;
 }
 
 .pa {
@@ -141,6 +146,10 @@ th {
 
 .pr0 {
     padding-right: 0
+}
+
+.pt15{
+    padding-top: 15px;
 }
 
 .pr5 {

@@ -8,7 +8,7 @@
     "organization": "二公局一公司机关党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "魏天霞 ",
@@ -19,7 +19,7 @@
     "organization": "二公局一公司基地管理中心党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "胡丹丹",
@@ -30,7 +30,7 @@
     "organization": "二公局一公司福州地铁项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "陈宏子",
@@ -41,7 +41,7 @@
     "organization": "二公局一公司博贺湾大桥项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "秦婷婷",
@@ -52,7 +52,7 @@
     "organization": "二公局一公司荔榕七标项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "李剑",
@@ -63,7 +63,7 @@
     "organization": "二公局一公司三门湾项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "范志坚",
@@ -74,7 +74,7 @@
     "organization": "二公局一公司申嘉湖1标项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "胡书琴",
@@ -85,7 +85,7 @@
     "organization": "二公局一公司甬台温8标项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "王艳红",
@@ -96,7 +96,7 @@
     "organization": "二公局一公司淮安项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "吴巧芬",
@@ -107,7 +107,7 @@
     "organization": "二公局一公司青海牙同项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "张琪",
@@ -118,7 +118,7 @@
     "organization": "二公局一公司平罗13标项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   },
   {
     "name": "毛春华",
@@ -129,6 +129,6 @@
     "organization": "二公局一公司潮汕环线项目党支部",
     "time": "2017-08-08",
     "tel": "135********",
-    "action": "<a href='../personInfo/index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='person_edit.html' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
+    "action": "<a href='../personInfo/org_index.html' target='_blank'  data-placement='top' > <span class='label label-warning'>查看</span></a><a href='../personInfo/org_edit.html' target='_blank' data-placement='top' > <span class='label label-primary'>编辑</span></a><a href='#modal-del'  data-toggle='modal' data-placement='top' > <span class='label label-danger'>删除</span></a>"
   }
 ]

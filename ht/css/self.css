@@ -52,10 +52,14 @@
     .navbar-default > li {
         border: solid 1px #ddd
     }
-
-    .nav > li > a:focus, .nav > li > a:hover {
-        background-color: #f8f8f8;
-        color: red !important;
+    .first_nav>li>a{
+        border-bottom: #fff 2px solid;
+        transition: border 0.7s;
+        -webkit-transition: border 0.7s; /* Safari */
+    }
+    .first_nav>li>a:focus, .first_nav>li>a:hover {
+        border-bottom: #dc1f15 2px solid !important;
+        color: #dc1f15 !important;
     }
 
     .nav-second-level {
@@ -83,13 +87,18 @@
     }
 
     .left_nav > li > a > span, .left_nav > li > a > i {
-        font-size: 18px
+        font-size: 16px
     }
 
     .left_nav > li > a {
-        padding: 5px 20px;
+        padding: 10px 20px;
         font-size: 16px;
         color: #333;
+    }
+
+    .left_nav>li>a:focus, .left_nav>li>a:hover {
+        color: #dc1f15 !important;
+        border-left: solid 2px #dc1f15;
     }
 
     .left_nav > li > a > i {

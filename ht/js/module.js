@@ -23,8 +23,8 @@ $(function () {
     $(".first_nav").find('li>a').on('click', function () {
         event.preventDefault();
         var address = $(this).attr("href");
-        $(".first_nav").find('li>a').removeClass("act");
-        $(this).addClass("act");
+        $(".first_nav").find('li>a').removeClass("act2");
+        $(this).addClass("act2");
         $(".second_iframe").attr("src", "");
         $(".second_iframe").attr("src", address);
     });
